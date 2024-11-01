@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/edres/static/css/main.0db8fd6e.css",
+    "main.js": "/edres/static/js/main.f9caae1d.js",
+    "static/js/453.05effdbf.chunk.js": "/edres/static/js/453.05effdbf.chunk.js",
+    "static/media/headerBG.png": "/edres/static/media/headerBG.fe6f65bdbd9b8c8b6115.png",
+    "index.html": "/edres/index.html",
+    "main.0db8fd6e.css.map": "/edres/static/css/main.0db8fd6e.css.map",
+    "main.f9caae1d.js.map": "/edres/static/js/main.f9caae1d.js.map",
+    "453.05effdbf.chunk.js.map": "/edres/static/js/453.05effdbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0db8fd6e.css",
+    "static/js/main.f9caae1d.js"
+  ]
+}
