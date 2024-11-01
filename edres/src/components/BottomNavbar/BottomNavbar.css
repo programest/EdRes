@@ -40,4 +40,7 @@
   }
   .nav-button{
     text-decoration: none !important;
+  }.active-text {
+    color: #007BFF; /* Цвет активного текста */
+    font-weight: bold; /* Примените любое другое стилистическое изменение */
   }

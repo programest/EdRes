@@ -2,13 +2,14 @@ import React from 'react';
 import '../Card/Card.css';
 import CardLike from '../../assets/Svg/Cards/CardLike';
 import CardLink from '../../assets/Svg/Cards/CardLink';
-
+import Physics from '../../assets/Svg/Cards/Physics';
 const Card = ({ isLast, color, title, curses, lvl, sections }) => {
   return (
     <div
       className={`card ${isLast ? 'card--last' : 'card--reduced'}`}
       style={{ backgroundColor: color }} // Применяем цвет как инлайн-стиль
     >
+        <Physics />
       <div className='cardHeader'>
         <h1 className='cardHeader_title'>{title}</h1>
         <CardLink />

@@ -17,7 +17,7 @@ const Message = ({ text }) => {
     <svg
       width={dimensions.width}
       height={dimensions.height}
-      style={{ position: 'absolute', right: '15px', bottom: '20px' }}
+      style={{ position: 'absolute', right: '15px', bottom: '10px' }}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

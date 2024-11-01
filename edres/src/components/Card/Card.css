@@ -1,5 +1,6 @@
 .card{
     width: 100%;
+    position: relative;
     border-radius: 20px;
     background-color: #77EA73;
     margin-top: -40px;
@@ -33,8 +34,10 @@
     justify-content: center;
 }
 .contentBlock__title{
-    font-weight: 500;
+    margin-bottom: 10px;
+    font-weight: 200;
     font-size: 12px;
+    color: #2B3674;
     text-transform: lowercase;
 }
 .contentBlock__text{
@@ -42,16 +45,16 @@
     font-size: 14px;
 }
 
-/* Карточка с полным отображением */
+
 .card--last {
     height: 100%;
-    /* Дополнительные стили для полной карточки */
+
   }
   
-  /* Карточки с 20% отображением */
+  
   .card--reduced {
     height: 100px;
     border-radius: 20px 20px 0px 0px;
-    /* Стили для уменьшенной карточки */
+
   }
   
