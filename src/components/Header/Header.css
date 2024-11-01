@@ -1,0 +1,111 @@
+ .headerBlock{
+    display: flex;
+    align-items: center;
+    height: 32%;
+    border-radius: 60px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    background-color: #fff;
+}
+.headerContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.headerCoins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerContent_notification{
+    background-color: #E9E3FF;
+    width: 50px;
+    border-radius: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerCoins{
+    background-color: #E9E3FF;
+    width: 150px;
+    border-radius: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerCoins_text{
+    color: #4318FF;
+    margin-right: 10px;
+}
+.headerContent_lang{
+    color: #4318FF;
+}
+.headerContent_title{
+    margin-right: 6%;
+}
+
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .burgerMenu {
+    display: none; /* Скрываем бургер-меню по умолчанию */
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: all 0.4s ease; /* Плавный переход для анимации */
+  }
+  
+  .burgerMenuContent {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    background-color: white; /* Цвет фона бургер-меню */
+    position: absolute;
+    top: 0%; /* Позиционируем под хедером */
+    left: 0; /* Выравнивание по правому краю */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 50%;
+  }
+  
+  @media (max-width: 400px) {
+    .burgerMenu {
+      display: flex; /* Показываем бургер-меню на экранах меньше 400px */
+    }
+  
+    .headerContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+   
+  
+    /* Анимация для бургер-меню */
+    .bar.active:nth-child(1) {
+      transform: rotate(-45deg) translate(-9px, 9px); /* Верхняя полоса */
+    }
+  
+    .bar.active:nth-child(2) {
+      opacity: 0; /* Средняя полоса исчезает */
+    }
+  
+    .bar.active:nth-child(3) {
+      transform: rotate(45deg) translate(-6px, -6px); /* Нижняя полоса */
+    }
+  }
+  
