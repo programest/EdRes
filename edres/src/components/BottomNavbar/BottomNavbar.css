@@ -1,0 +1,46 @@
+/* BottomNavbar.css */
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .nav-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s;
+  }
+  
+  .nav-button:hover {
+    color: #000;
+  }
+  
+  .nav-button span {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  .navText{
+    font-size: 16px !important;
+    color: #A3AED0;
+    
+  }
+  .nav-button{
+    text-decoration: none !important;
+  }.active-text {
+    color: #007BFF; /* Цвет активного текста */
+    font-weight: bold; /* Примените любое другое стилистическое изменение */
+  }
