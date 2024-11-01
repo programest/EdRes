@@ -1,0 +1,9 @@
+.header{
+    background: url(../../assets/headerBG.png) no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    height: 160px;
+    padding-top: 7%
+}
+
