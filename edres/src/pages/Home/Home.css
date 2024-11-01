@@ -32,3 +32,6 @@
   .section.active .sectionTitle {
    color: #FAFCFE; /* Цвет для активной секции */
   }
+  .cardsContainer {
+    overflow-y: auto; /* Включите вертикальную прокрутку */
+  }
