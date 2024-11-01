@@ -20,7 +20,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div style={{overflow: 'auto'}}>
       <header className='header'>
         <Header />
       </header>
@@ -45,7 +45,7 @@ const Home = () => {
       </main>
       <footer>
       </footer>
-    </>
+    </div>
   );
 };
 
