@@ -13,7 +13,7 @@
 .sections{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15%;
+    margin-bottom: 70px;
     margin-top: 3%;
 }
 .section{
